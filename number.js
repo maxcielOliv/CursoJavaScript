@@ -11,6 +11,8 @@
 
 let n = '50.33';
 //transformar string em numero real
-let res = parseFloat(n) + 5;
-
-console.log(res);
+//let res = parseFloat(n) + 5;
+//console.log(Number.isInteger(n));
+let temp = n * '5';
+console.log(temp);
+//console.log(res);

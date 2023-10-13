@@ -14,12 +14,13 @@ let anoNascimento = 2023 - idade;
  let varB = 'B'; //C
  let varC = 'C'; //A
 
-varA = varB;
+/*varA = varB;
 varB = varC;
 varC = varA;
 
  let i = varA.replace(varA, varB);
  let j = varB.replace(varB, varC);
- let h = varC.replace(varC, varA);
+ let h = varC.replace(varC, varA);*/
 
+ [varA, varB, varC] = [varB, varC, varA];
  console.log(varA, varB, varC);

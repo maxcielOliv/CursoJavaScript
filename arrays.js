@@ -53,4 +53,9 @@ let res = lista2;
 //decrescente
 //lista.reverse();
 
-console.log(res);
+//console.log(res);
+
+const numeros = [1000, 2000, 3000, 4000, 5000, 6000, 7000];
+const [primeiro, segundo, terceiro, ...resto] = numeros;
+console.log(primeiro, segundo, terceiro);
+console.log(resto);

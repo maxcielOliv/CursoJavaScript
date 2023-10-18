@@ -47,3 +47,11 @@ form button {
 .result {
     background-color: rgb(119, 206, 119);
 }
+
+.timer {
+    font-size: 3rem;
+}
+
+.pausado {
+    color: red;
+}
